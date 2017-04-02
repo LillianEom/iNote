@@ -1,27 +1,15 @@
 
 
+
 Table of Contents
 =================
-
-[RecyclerView](#RecyclerView)
-
-[ListView](#ListView)
-
-[OKHttp](#OKHttp)
-
-[Retrofit](#Retrofit)
-
-[EventBus](#EventBus)
-
-[Dragger2](#Dragger2)
-
-[Glide](#Glide)
 
 ## RecyclerView
 
 * [深入浅出 RecyclerView--张涛](https://www.kymjs.com/code/2016/07/10/01/)
 * [【腾讯Bugly干货分享】Android ListView与RecyclerView对比浅析--缓存机制](http://blog.csdn.net/tencent_bugly/article/details/52981210)
 * [【腾讯Bugly干货分享】RecyclerView 必知必会](http://blog.csdn.net/tencent_bugly/article/details/54287626)
+* [RecyclerView的通用适配器，和滚动时不加载图片的封装](https://kymjs.com/code/2015/10/11/01/)
 
 ## ListView
 
