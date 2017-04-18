@@ -1,11 +1,3 @@
-Table of Contents
-=================
-    * [1 架构](#1-架构)
-    * [2 RecyclerView](#2-RecyclerView)
-    * [3 ListView](#3-ListView)
-    * [4 OKHttp](#4-OKHttp)
-    * [5 Retrofit](#5-Retrofit)
-    * [6 EventBus](#6-EventBus)
 ## 架构
 
 * [架构](https://blog.dreamtobe.cn/categories/%E6%9E%B6%E6%9E%84/)
