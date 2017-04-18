@@ -1,12 +1,17 @@
-
-<<<<<<< HEAD
-
-
 Table of Contents
 =================
+    * [1 架构](#1-架构)
+    * [2 RecyclerView](#2-RecyclerView)
+    * [3 ListView](#3-ListView)
+    * [4 OKHttp](#4-OKHttp)
+    * [5 Retrofit](#5-Retrofit)
+    * [6 EventBus](#6-EventBus)
+## 架构
 
-=======
->>>>>>> 272eb26958160c6a7e0a23bee1e42c167f32d520
+* [架构](https://blog.dreamtobe.cn/categories/%E6%9E%B6%E6%9E%84/)
+
+
+
 ## RecyclerView
 
 * [深入浅出 RecyclerView--张涛](https://www.kymjs.com/code/2016/07/10/01/)
@@ -16,7 +21,13 @@ Table of Contents
 
 ## ListView
 
+* [Android ListView工作原理完全解析，带你从源码的角度彻底理解](http://blog.csdn.net/guolin_blog/article/details/44996879)
 
+
+* [Android ListView异步加载图片乱序问题，原因分析及解决方案](http://blog.csdn.net/guolin_blog/article/details/45586553)
+
+
+* [Android ListView功能扩展，实现高性能的瀑布流布局](http://blog.csdn.net/guolin_blog/article/details/46361889)
 
 ## OKHttp
 
@@ -63,7 +74,9 @@ Table of Contents
 
 
 
+## RxJava
 
+[RxJava学习整理]()https://blog.dreamtobe.cn/categories/%E7%BC%96%E7%A8%8B%E6%96%B9%E5%BC%8F/
 
 ## Dragger2
 
@@ -71,13 +84,27 @@ Table of Contents
 
 ## Glide
 
+* [Android图片加载框架最全解析（一），Glide的基本用法](http://blog.csdn.net/guolin_blog/article/details/53759439)
+* [Android图片加载框架最全解析（二），从源码的角度理解Glide的执行流程](http://blog.csdn.net/guolin_blog/article/details/53939176)
 
 
-## OOM
+
+## OOM && Memery Leak
 
 * [Android 内存泄漏分析心得--腾讯优测](http://blog.csdn.net/tencent_bugly/article/details/54668776)
 * [Android内存优化之OOM--胡凯](http://hukai.me/android-performance-oom/)
 * [内存泄露从入门到精通三部曲之基础知识篇](http://blog.csdn.net/tencent_bugly/article/details/49679777)
+* [Android OOM案例分析](http://mp.weixin.qq.com/s/UQj4_SdoLW93SmxPszZPdA)
+* [Android 内存优化总结&实践](http://mp.weixin.qq.com/s/2MsEAR9pQfMr1Sfs7cPdWQ)
+
+## Crash
+
+* [经典随机Crash之一：线程安全](http://mp.weixin.qq.com/s/-tJ4FB86tgRNQeCYqPY9PA)
+* [经典随机Crash之二：Android消息机制](https://mp.weixin.qq.com/s/bphu_g1PfGQREAApWat7mQ)
+
+## GC
+
+* [Android GC 原理探究](http://mp.weixin.qq.com/s/CUU3Ml394H_fkabhNNX32Q)
 
 ## 自定义View
 
@@ -107,6 +134,8 @@ Table of Contents
 
   **Java、Android的内存分配、回收、GC等理论知识**
 
+* [Android优化](https://blog.dreamtobe.cn/2015/10/26/android_optimize/)
+
 ## 进程保活
 
 * [【腾讯Bugly干货分享】Android进程保活招式大全](http://blog.csdn.net/tencent_bugly/article/details/52192423)
@@ -131,13 +160,21 @@ Table of Contents
 
 
 
+## UI
+
+[ConstraintLayout](https://blog.dreamtobe.cn/2016/08/03/constraint-layout/)
 
 
 
+## LeakCanary
+
+[LeakCanary使用总结](https://blog.dreamtobe.cn/2015/05/18/LeakCanary%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/)
+
+[Leakcanary Square的一款Android/Java内存泄漏检测工具](https://blog.dreamtobe.cn/2015/05/12/Leakcanary-Square%E7%9A%84%E4%B8%80%E6%AC%BEAndroid:Java%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E6%A3%80%E6%B5%8B%E5%B7%A5%E5%85%B7)
 
 
 
+## 脚本
 
-
-
+[一些快速提高Android开发的脚本与技巧（终端篇）](http://droidyue.com/blog/2016/05/02/android-development-bash-scripts/)
 
