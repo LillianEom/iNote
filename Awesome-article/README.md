@@ -132,6 +132,14 @@
 
 * [【腾讯Bugly干货分享】Android进程保活招式大全](http://blog.csdn.net/tencent_bugly/article/details/52192423)
 
+## 组件化
+
+
+
+## 插件化
+
+* [【腾讯Bugly干货分享】Android 插件技术实战总结](http://blog.csdn.net/tencent_bugly/article/details/70577599)
+
 ## 逆向分析
 
 * [【Bugly干货分享】手把手教你逆向分析 Android 程序](http://blog.csdn.net/tencent_bugly/article/details/51424209)
@@ -143,6 +151,8 @@
 * [Walle--美团](https://github.com/Meituan-Dianping/walle)
 
   美团开源的新一代渠道包打包神器，在Android 7.0之后，升级了Android 的签名机制，使得原来通过zip注释和添加空文件的打包方式不在适用了。
+
+* [Android 新一代多渠道打包神器](http://mp.weixin.qq.com/s/TqmEPQUQz0lMqo7UKaucKA)
 
 ## Http
 
