@@ -1,6 +1,8 @@
 # iNote
 [项目命名规范和编码规范](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)
 
+[你应该知道的那些 Android 小经验](https://github.com/spring2613/iNote/blob/master/Awesome-article/%E4%BD%A0%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84%E9%82%A3%E4%BA%9BAndroid%E5%B0%8F%E7%BB%8F%E9%AA%8C.md)
+
 [基于 MVP 的一种架构理解](https://github.com/ribot/android-guidelines/blob/master/architecture_guidelines/android_architecture.md)
 
 
