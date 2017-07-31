@@ -19,6 +19,23 @@
 
 
 
+-----------
+
+* JavaSE
+  * [Java 8系列之重新认识HashMap](https://tech.meituan.com/java-hashmap.html)
+  * [由 HashMap 引申出的技术深度讨论](https://zhuanlan.zhihu.com/p/27325430?utm_medium=social&utm_source=weibo)
+
+
+
+
+
+
+
+
+* 网络
+  * [HTTPS 原理浅析及其在 Android 中的使用](http://blog.csdn.net/tencent_bugly/article/details/72626127)
+
+
 
 
 
