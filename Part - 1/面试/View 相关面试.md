@@ -103,7 +103,7 @@ Android中实现view的更新有两组方法，一组是invalidate，另一组�
 
 
 
-### Scrollview怎么判断是否滑倒底部
+### 9. Scrollview怎么判断是否滑倒底部
 
 * 滚动到顶部判断 getScrollY() == 0
 * 滚动到底部判断
@@ -164,7 +164,7 @@ public class myScrollView extends ScrollView{
 
 
 
-### ExpandableListView的Adapter怎么写
+### 10.ExpandableListView的Adapter怎么写
 
 http://www.codexiu.cn/android/blog/32105/
 
@@ -202,6 +202,49 @@ http://blog.csdn.net/to_be_designer/article/details/48028649
 **ExpandableListView**是一种双层显示的View，为什么这么说呢，以我们的QQ为例，打开我们的QQ，我们首先会有一个联系人的分组，点击分组我们会看到分组内联系人的列表。这就是一种双层显示的View。ExpandableListView相当于两层的ListView嵌套。
 
 ExpandableListView的使用与ListView类似，只不过ExpandableListView在创建Adapter的时候需要重写两倍的ListView重写的方法（原因就是：ExpandableListView相当于两层的ListView嵌套）。ExpandableListView在创建Adapter需要继承BaseExpandableListAdapter。
+
+
+
+### 11. 如何让两个TextView在一个RelativeLayout水平居中显示
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/center"
+        android:layout_marginRight="10dp"
+        android:textSize="30sp"
+        android:text="name"
+        android:background="@android:color/holo_green_light"
+        />
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/holo_red_light"
+        />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/center"
+        android:layout_marginLeft="10dp"
+        android:text="title"
+        android:textSize="30sp"
+        android:background="@android:color/holo_green_light"
+        />
+</RelativeLayout>
+```
+
+
 
 
 

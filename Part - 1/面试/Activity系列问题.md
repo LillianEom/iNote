@@ -53,3 +53,31 @@ LaunchMode 这一点我之前也是简简单单准备的有四种，每种什么
 https://developer.android.com/guide/components/tasks-and-back-stack.html
 
 http://blog.sina.com.cn/s/blog_6b6f6a800102vwah.htmlhttp://souly.cn/%E6%8A%80%E6%9C%AF%E5%8D%9A%E6%96%87/2015/07/03/activity-LaunchMode-%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF/
+
+
+
+### 19. 同一个应用程序的不同Activity可以运行在不同的进程中么？如果可以，举例说明
+
+```java
+public class ActivityStack {   
+    ......   
+    private final void startSpecificActivityLocked(ActivityRecord r,   
+            boolean andResume, boolean checkConfig) {   
+        // Is this activity's application already running?   
+        ProcessRecord app = mService.getProcessRecordLocked(r.processName,   
+            r.info.applicationInfo.uid);   
+        ......   
+        if (app != null && app.thread != null) {   
+            try {   
+                realStartActivityLocked(r, app, andResume, checkConfig);   
+                return;   
+            } catch (RemoteException e) {   
+                ......   
+            }   
+        }   
+        mService.startProcessLocked(r.processName, r.info.applicationInfo, true, 0,   
+            "activity", r.intent.getComponent(), false);   
+    }   
+    ......
+}   
+```

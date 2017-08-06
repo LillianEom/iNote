@@ -17,6 +17,10 @@
 
 [临时收集文章](https://github.com/spring2613/iNote/blob/master/Awesome-article/%E4%B8%B4%E6%97%B6%E6%94%B6%E9%9B%86%E6%96%87%E7%AB%A0.md)
 
+-----------------
+
+
+
 * Android
   * [ANR](https://github.com/spring2613/iNote/blob/master/Part%20-%201/Android/ANR.md)
   * [APP启动优化](https://github.com/spring2613/iNote/blob/master/Part%20-%201/Android/APP%E5%90%AF%E5%8A%A8%E4%BC%98%E5%8C%96.md)
@@ -47,13 +51,13 @@
 * JavaSE
   * [Java 8系列之重新认识HashMap](https://tech.meituan.com/java-hashmap.html)
   * [由 HashMap 引申出的技术深度讨论](https://zhuanlan.zhihu.com/p/27325430?utm_medium=social&utm_source=weibo)
+* 线程
+* JVM
 
 
 
 
-
-
-
+----------------------
 
 * 网络
   * [HTTPS 原理浅析及其在 Android 中的使用](http://blog.csdn.net/tencent_bugly/article/details/72626127)
@@ -63,6 +67,10 @@
 
 
 
+
+
+
+--------------
 
 * 工具
   * [Android Studio插件](https://github.com/spring2613/iNote/blob/master/Part%20-%201/Android/Android%20Studio%E6%8F%92%E4%BB%B6.md)
