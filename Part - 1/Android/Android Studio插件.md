@@ -40,7 +40,7 @@ maven gradle 依赖支持自动补全
 
 # 6.[dagger-intellij-plugin](https://github.com/square/dagger-intellij-plugin)
 
-dagger可视化辅助工具
+Dagger 可视化辅助工具
 
 ![img](https://github.com/square/dagger-intellij-plugin/raw/master/images/inject-to-provide.gif)
 
@@ -164,7 +164,7 @@ eventbus导航插件(对于最新版的 EventBus 3.0.0 好像无效,请替换为
 
 # 22.[Android Styler](http://plugins.jetbrains.com/plugin/7972?pr=androidstudio)
 
-根据xml自动生成style代码的插件
+根据 xml 自动生成 style 代码的插件
 
 ![img](http://upload-images.jianshu.io/upload_images/1621204-dcfec08540fa7300.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -172,7 +172,7 @@ eventbus导航插件(对于最新版的 EventBus 3.0.0 好像无效,请替换为
 
 ![img](http://upload-images.jianshu.io/upload_images/1621204-23d78bacd7304ea0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## Usage:
+Usage:
 
 a. copy lines with future style from your layout.xml file
 b. paste it to styles.xml file with Ctrl+Shift+D (or context menu)
@@ -307,4 +307,54 @@ Force clear delaying & no longer needed Gradle tasks.
 具体请查看[Android Studio插件之MVPHelper，一键生成MVP代码](http://androidwing.net/index.php/27)一文
 
 ![img](https://github.com/githubwing/MVPHelper/raw/master/img/mvp_presenter.gif)
+
+# lint-cleaner-plugin
+
+删除未使用的资源,包括String字符串,颜色和尺寸。 这是一个Gradle插件，所以如何配置可以去github的源码上看。
+插件源码地址：[github.com/marcoRS/lin…](https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2FmarcoRS%2Flint-cleaner-plugin)
+
+# Android strings.xml tools
+
+可以用来管理Android项目中的字符串资源。它提供了排序Android本地文件和添加缺少的字符串的基本操作。虽然这个插件是有限制的，但如果应用程序有大量的字符串资源，那这个插件就非常有用了。
+插件下载地址：[plugins.jetbrains.com/plugin/7498…](https://link.juejin.im/?target=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7498%3Fpr%3D)
+插件源码地址：[github.com/constantine…](https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2Fconstantine-ivanov%2Fstrings-xml-tools)
+
+# JavaDoc
+
+添加注释，可自定义模板。
+插件下载地址：[plugins.jetbrains.com/plugin/?ide…](https://link.juejin.im/?target=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F%3Fidea_ce%26amp%3BpluginId%3D7157)
+插件源码地址：[github.com/setial/inte…](https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2Fsetial%2Fintellij-javadocs)
+推荐指数： 五星
+
+# AndroidAccessors
+
+快速实现get和set方法的插件。
+插件下载地址：[plugins.jetbrains.com/plugin/7496…](https://link.juejin.im/?target=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7496%3Fpr%3D)
+插件文档地址：[github.com/jonstaff/An…](https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2Fjonstaff%2FAndroidAccessors)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
