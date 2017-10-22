@@ -15,6 +15,24 @@
 
 * xml 配置
 
+  ```xml
+  <?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior"
+      tools:context=".MainActivity"
+      tools:showIn="@layout/activity_main">
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/recyclerview"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent" />
+  </RelativeLayout>
+  ```
+
 * Activity 代码
 
   ```java
@@ -177,25 +195,25 @@ ItemTouchHelper 用于实现 RecyclerView Item 拖曳效果的类，主要重写
 
 ```java
 //recyclerview滚动监听
-	recyclerview.addOnScrollListener(new RecyclerView.OnScrollListener() {
-        @Override
-        public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-            super.onScrollStateChanged(recyclerView, newState);
-            //0：当前屏幕停止滚动；1时：屏幕在滚动 且 用户仍在触碰或手指还在屏幕上；2时：随用户的操作，屏幕上产生的惯性滑动；
-            // 滑动状态停止并且剩余少于两个item时，自动加载下一页
-            if (newState == RecyclerView.SCROLL_STATE_IDLE
-                    && lastVisibleItem +2>=mLayoutManager.getItemCount()) {
-                new GetData().execute("http://gank.io/api/data/福利/10/"+(++page));
-            }
-        }
+recyclerview.addOnScrollListener(new RecyclerView.OnScrollListener() {
+  @Override
+  public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+    super.onScrollStateChanged(recyclerView, newState);
+    //0：当前屏幕停止滚动；1时：屏幕在滚动 且 用户仍在触碰或手指还在屏幕上；2时：随用户的操作，屏幕上产生的惯性滑动；
+    // 滑动状态停止并且剩余少于两个item时，自动加载下一页
+    if (newState == RecyclerView.SCROLL_STATE_IDLE
+        && lastVisibleItem +2>=mLayoutManager.getItemCount()) {
+      new GetData().execute("http://gank.io/api/data/福利/10/"+(++page));
+    }
+  }
 
-        @Override
-        public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-            super.onScrolled(recyclerView, dx, dy);
-            //获取加载的最后一个可见视图在适配器的位置。
-            lastVisibleItem = mLayoutManager.findLastVisibleItemPosition();
-        }
-    });
+  @Override
+  public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+    super.onScrolled(recyclerView, dx, dy);
+    //获取加载的最后一个可见视图在适配器的位置。
+    lastVisibleItem = mLayoutManager.findLastVisibleItemPosition();
+  }
+});
 ```
 
 StaggeredGridLayoutManager 因为 item 的位置是交错的，findLastVisibleItemPosition() 方法返回的是一个数组，所以我们得先判断下这个数组的最大值，上面的 onScrolled 方法写成这样
@@ -326,25 +344,19 @@ mAdapter.setOnItemClickLitener(new OnItemClickLitener(){
  });
 ```
 
-
-
 ### 嵌套滚动机制
 
 Touch 事件在进行分发的时候，由父 View 向它的子 View 传递，一旦某个子 View 开始接收进行处理，那么接下来所有事件都将由这个 View 来进行处理，它的 ViewGroup 将不会再接收到这些事件，直到下一次手指按下。而嵌套滚动机制（NestedScrolling）就是为了弥补这一机制的不足，为了让子 View 能和父 View 同时处理一个 Touch 事件。关于嵌套滚动机制（NestedScrolling），实现上相对是比较复杂的，此处就不去拓展说明，其关键在于 **NestedScrollingChild** 和 **NestedScrollingParent** 两个接口，以及系统对这两个接口的实现类 **NestedScrollingChildHelper** 和 **NestedScrollingParentHelper** 。
 
 CollapsingToolbarLayout 、AppBarLayout 和 RecyclerView
 
-
-
-
-
-
+### References
 
 [优雅的为RecyclerView添加HeaderView和FooterView](http://blog.csdn.net/lmj623565791/article/details/51854533) 
 
  [RecyclerView无法添加onItemClickListener最佳的高效解决方案](http://blog.csdn.net/liaoinstan/article/details/51200600) 
 
-
+[[Android RecyclerView的使用](http://www.cnblogs.com/shiwei-bai/p/4972039.html)](http://www.cnblogs.com/shiwei-bai/p/4972039.html)
 
 
 
