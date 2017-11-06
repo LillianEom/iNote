@@ -87,7 +87,7 @@ RxJava文档中文翻译：[Rx和RxJava文档中文翻译项目](https://github.
 
 
 
-
+[Retrofit + Rxjava网络层的优雅封装](https://mp.weixin.qq.com/s/AhDybAxjCiEufkf2fm9gjQ)
 
 
 

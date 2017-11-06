@@ -71,6 +71,8 @@
 
   * [正确的停止线程 ](https://github.com/spring2613/iNote/blob/master/Part%20-%201/Android/%E6%AD%A3%E7%A1%AE%E7%9A%84%E5%81%9C%E6%AD%A2%E7%BA%BF%E7%A8%8B.md)
   * [ThreadLocal、Volatile、synchronized、Atomic关键字](https://github.com/spring2613/iNote/blob/master/Part%20-%202/JavaConcurrent/ThreadLocal%E3%80%81Volatile%E3%80%81synchronized%E3%80%81Atomic%E5%85%B3%E9%94%AE%E5%AD%97.md)
+  * [浅析volatile关键字](https://mp.weixin.qq.com/s/59By0CWHuprpa_AKPyuyeg)
+  * [Android中多线程的使用四种方式最全总结](https://mp.weixin.qq.com/s/wn2bVNAxfNydjYzatvxkyw)
 
 * JVM
 
@@ -101,8 +103,33 @@
   * [Android反编译分享](https://github.com/spring2613/iNote/blob/master/Part%20-%201/Android/Android%E5%8F%8D%E7%BC%96%E8%AF%91%E5%88%86%E4%BA%AB.md)
 
 
+------
+
+* 算法
+  * [时间复杂度介绍](https://mp.weixin.qq.com/s/YdgDFVMRqPFeUcYX40gS1A)
+  * [动图演示 | 讲解不可错过的10大实用算法](https://mp.weixin.qq.com/s/Y-7HiYqc-zGfovjS-K9nXg)
 
 
 
+
+
+----
+
+* 设计模式
+  * [浅谈Android生产者消费者模式](https://mp.weixin.qq.com/s/YdgDFVMRqPFeUcYX40gS1A)
+
+
+
+-----
+
+* 性能优化
+  * [Android 之 GPU过度绘制与图形渲染优化](https://mp.weixin.qq.com/s/kbSivCA4EW07XeCEzI5k9Q)
+  * [深入理解Android渲染机制](https://mp.weixin.qq.com/s/kwZchRASHk6mfT3oiAJQMA)
+  * [58同城首页UI渲染优化](https://mp.weixin.qq.com/s/Sateq6cHqJ9k_Gcr4L4L1Q)
+  * [Android 性能优化系列之渲染优化](https://mp.weixin.qq.com/s/HnH636CgUS0YUb6799avGw)
+  * [Android性能优化-渲染优化，让你的APP更优秀！](https://mp.weixin.qq.com/s/nhqnziH7ig0x3Dxtg_Y-JA)
+  * [Android客户端性能优化（魅族资深工程师毫无保留奉献）](https://mp.weixin.qq.com/s/fKHrNV5LVT5lLF9rGxQLjw)
+  * [【QMobile大会】Speed your APP – Android APP 性能优化](https://mp.weixin.qq.com/s/iZHUgUDC8cR88yiJy3Hkmw)
+  * [Adnroid 性能分析利器-traceview](https://mp.weixin.qq.com/s/UOPn2wFUlgMaUOO0hhcidw)
 
 
