@@ -4,14 +4,6 @@ RxJava是JVM上的响应式编程框架，可以简化异步操作的代码，�
 
 
 
-[RxJava 介绍](https://academy.realm.io/cn/posts/360andev-christina-lee-intro-rxjava-java-android/)
-
-[【RxJava && Agera】从源码简要分析基本调用流程](https://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=2649796857&idx=1&sn=ed8325aeddac7fd2bd81a0717c010e98&mpshare=1&scene=1&srcid=0227B74uP0xJUzjKzfvr5hsN#rd)
-
-[Architecting Android with RxJava](http://www.jianshu.com/p/943ceaccfdff)
-
-[Retrofit + Rxjava网络层的优雅封装](https://mp.weixin.qq.com/s/AhDybAxjCiEufkf2fm9gjQ)
-
 
 
 2016-08-06» [Android端外推送到底有多烦？](http://zhangtielei.com/posts/blog-android-push.html)
