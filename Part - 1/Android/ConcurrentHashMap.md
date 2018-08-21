@@ -14,7 +14,7 @@
 
 #### **线程不安全的HashMap**
 
-在多线程环境下，使用 HashMap 进行 put 操作会引起死循环，导致 CPU 利用率接近100%，所以在并发情况下不能使用 HashMap。HashMap 在并发执行 put 操作是会引起死循环，是因为多线程会导致 HashMap 的 Entry 链表形成环形数据结构，一旦形成唤醒数据结构，Entry 的 next 节点永远不为空，就会产生死循环。
+在多线程环境下，使用 HashMap 进行 put 操作会引起死循环，导致 CPU 利用率接近100%，所以在并发情况下不能使用 HashMap。HashMap 在并发执行 put 操作是会引起死循环，是因为多线程会导致 HashMap 的 Entry 链表形成环形数据结构，一旦形成环形数据结构，Entry 的 next 节点永远不为空，就会产生死循环。
 
 #### **效率低下的HashTable**
 
